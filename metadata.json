@@ -1,0 +1,10 @@
+{
+  "name": "Arya Elang Samudra Portfolio",
+  "description": "A modern, creative DKV portfolio for Arya Elang Samudra from SMK Yadika Bandar Lampung, featuring design projects and an AI-powered design assistant.",
+  "entry": "index.html",
+  "framework": "react",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
