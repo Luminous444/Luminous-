@@ -105,7 +105,7 @@ export const SKILL_DATA: ExtendedSkillItem[] = [
   { 
     name: 'affinity designer', 
     level: 90, 
-    iconUrl: 'https://cdn.simpleicons.org/affinitydesigner/1B72BA',
+    iconUrl: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Flogopedia%2Fimages%2Ff%2Ff5%2FAffinity_2025_icon.svg%2Frevision%2Flatest%2Fscale-to-width-down%2F250%3Fcb%3D20251030173209&tbnid=GxoyyUkWHox_SM&vet=1&imgrefurl=https%3A%2F%2Flogos.fandom.com%2Fwiki%2FAffinity&docid=ymGIQQOB7lmu-M&w=281&h=281&source=sh%2Fx%2Fim%2Fm1%2F2&kgs=0148a4661b01b125&shem=bdsle%2Cisst',
     color: 'from-blue-600 to-blue-400'
   },
   { 
