@@ -60,7 +60,7 @@ const App: React.FC = () => {
               animate={{ opacity: 1 }}
               className="text-xl md:text-2xl font-black tracking-tighter"
             >
-              arya<span className="text-[#A3FF12]">.studio</span>
+              Luminous<span className="text-[#A3FF12]">.std</span>
             </motion.div>
             
             <div className="flex items-center gap-2 md:gap-4">
@@ -175,11 +175,11 @@ const App: React.FC = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 border-t border-white/10 pt-10 md:pt-16">
                     <div>
                       <h4 className="text-[#A3FF12] font-black mb-2 text-[9px] md:text-[10px] uppercase tracking-widest">{lang === 'id' ? 'lokasi' : 'location'}</h4>
-                      <p className="text-lg md:text-xl font-bold">bandar lampung, id</p>
+                      <p className="text-lg md:text-xl font-bold">Bandar Lampung, ID</p>
                     </div>
                     <div>
                       <h4 className="text-[#A3FF12] font-black mb-2 text-[9px] md:text-[10px] uppercase tracking-widest">{lang === 'id' ? 'pendidikan' : 'education'}</h4>
-                      <p className="text-lg md:text-xl font-bold">xi dkv - smk yadika</p>
+                      <p className="text-lg md:text-xl font-bold">XI DKV - Smk Yadika</p>
                     </div>
                   </div>
                 </AnimatedSection>
