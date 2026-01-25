@@ -156,7 +156,7 @@ const App: React.FC = () => {
                 <AnimatedSection>
                   <div className="relative group aspect-[4/5] rounded-[2rem] md:rounded-[2.5rem] overflow-hidden bg-zinc-800 shadow-2xl">
                     <img 
-                      src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop" 
+                      src="./assets/images/arya-profile.jpg" 
                       alt="Arya Elang Samudra" 
                       className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000" 
                     />

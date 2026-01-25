@@ -6,6 +6,13 @@ export interface ExtendedSkillItem extends SkillItem {
   color: string;
 }
 
+/**
+ * CARA MENAMBAHKAN GAMBAR LOKAL:
+ * 1. Simpan file gambar Anda di folder: assets/images/
+ * 2. Pastikan nama file di folder sama dengan yang tertulis di kode (misal: poster-sekolah.jpg)
+ * 3. Gunakan format path: ./assets/images/nama-file.ext
+ */
+
 export const PORTFOLIO_DATA: PortfolioItem[] = [
   {
     id: '1',
@@ -15,7 +22,8 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
       id: 'desain poster kegiatan sekolah dengan konsep modern dan warna berani untuk menarik perhatian siswa.',
       en: 'modern school event poster design with bold colors to capture student attention.' 
     },
-    image: 'https://images.unsplash.com/photo-1572044162444-ad60f128bde7?q=80&w=800&auto=format&fit=crop',
+    // Menggunakan file lokal
+    image: './assets/images/poster-event.jpg',
     tags: ['affinity designer', 'layout']
   },
   {
@@ -26,7 +34,8 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
       id: 'eksplorasi logo monogram menggunakan bentuk geometris yang bersih dan modern.',
       en: 'monogram logo exploration using clean and modern geometric shapes.' 
     },
-    image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=800&auto=format&fit=crop',
+    // Menggunakan file lokal
+    image: './assets/images/logo-monogram.jpg',
     tags: ['adobe illustrator', 'identity']
   },
   {
@@ -37,7 +46,8 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
       id: 'animasi pembuka menggunakan after effects dengan transisi dinamis.',
       en: 'dynamic intro animation created using after effects with fluid transitions.' 
     },
-    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop',
+    // Menggunakan file lokal
+    image: './assets/images/motion-intro.jpg',
     tags: ['after effects', 'animation']
   },
   {
@@ -48,7 +58,8 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
       id: 'pengembangan identitas visual lengkap mulai dari logo hingga aset pendukung media sosial.',
       en: 'complete visual identity development from logo to supporting social media assets.' 
     },
-    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800&auto=format&fit=crop',
+    // Menggunakan file lokal
+    image: './assets/images/branding-concept.jpg',
     tags: ['photoshop', 'branding']
   }
 ];
