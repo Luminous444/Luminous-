@@ -27,21 +27,21 @@ const App: React.FC = () => {
       contact: lang === 'id' ? 'kontak' : 'contact'
     },
     hero: {
-      subtitle: lang === 'id' ? 'xi dkv • smk yadika bandar lampung' : 'grade xi dkv • smk yadika bandar lampung',
-      title: lang === 'id' ? 'desain visual & ilustrasi digital.' : 'visual design & digital illustration.',
+      subtitle: lang === 'id' ? 'XI DKV • SMK YADIKA Bandar Lampung' : 'grade XI DKV • SMK YADIKA Bandar Lampung',
+      title: lang === 'id' ? 'Desain Visual & Ilustrasi Digital.' : 'Visual Design & Digital Illustration.',
       tagline: lang === 'id' ? 'mengembangkan visual yang bercerita.' : 'creating visuals that tell stories.',
-      cta: lang === 'id' ? 'lihat karya' : 'view works',
-      contact: lang === 'id' ? 'hubungi saya' : 'contact me'
+      cta: lang === 'id' ? 'Lihat karya' : 'View works',
+      contact: lang === 'id' ? 'Hubungi saya' : 'Hontact me'
     },
     about: {
-      title: lang === 'id' ? 'tentang saya' : 'about me',
+      title: lang === 'id' ? 'Tentang saya' : 'About me',
       desc: lang === 'id' 
-        ? 'saya adalah pelajar dkv yang fokus pada ilustrasi digital, visual storytelling, dan eksplorasi desain modern dengan pendekatan gen z aesthetic.'
-        : 'i am a dkv student focused on digital illustration, visual storytelling, and exploring modern design with a gen z aesthetic approach.'
+        ? 'Saya adalah pelajar dkv yang fokus pada ilustrasi digital, visual storytelling, dan eksplorasi desain modern dengan pendekatan gen z aesthetic.'
+        : 'I am a dkv student focused on digital illustration, visual storytelling, and exploring modern design with a gen z aesthetic approach.'
     },
-    skills: { title: lang === 'id' ? 'software & keahlian' : 'software & expertise' },
-    experience: { title: lang === 'id' ? 'pengalaman' : 'experience' },
-    achievements: { title: lang === 'id' ? 'pencapaian' : 'achievements' },
+    skills: { title: lang === 'id' ? 'Software & Keahlian' : 'Software & Expertise' },
+    experience: { title: lang === 'id' ? 'Pengalaman' : 'Experience' },
+    achievements: { title: lang === 'id' ? 'Pencapaian' : 'Achievements' },
     contact: {
       title: lang === 'id' ? 'ayo ngobrol' : "let's talk",
       subtitle: lang === 'id' ? 'say something 👀' : 'say something 👀'
